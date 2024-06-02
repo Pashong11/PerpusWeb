@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 1rem;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar li a:hover {
+    background-color: #0056b3;
+}
+
+#register-form, #login-form, #admin-login-form, #admin-panel, #dashboard-section {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+#user-id-display {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #e9ecef;
+    border: 1px solid #007bff;
+}
+
+#user-id-display {
+    display: none;
+}
