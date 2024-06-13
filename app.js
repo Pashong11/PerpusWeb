@@ -68,7 +68,7 @@ document.getElementById('admin-login-form')?.addEventListener('submit', function
     const adminPassword = document.getElementById('admin-password').value;
 
     // Simple admin check
-    if (adminName === 'admin' && adminPassword === 'admin123') {
+    if (adminName === 'Anggaraksa' && adminPassword === 'Angga1101') {
         // Redirect to admin panel
         window.location.href = 'admin-panel.html';
     } else {
